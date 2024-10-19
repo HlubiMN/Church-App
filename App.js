@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'react-native-gesture-handler';
 import { View, Platform, Text } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -118,6 +119,10 @@ const HomePage = () => {
     </Tab.Navigator>
   )
 }
+=======
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native'
+>>>>>>> 66da7890970c232377ee23f5496cae1398a26497
 
 export default function App() {
   return (
